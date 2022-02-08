@@ -27,3 +27,13 @@ while countvar < 5:
     print(namelist[countvar], "is awesome!")
     countvar = countvar + 1
 
+# C using .split()
+
+namez = input("5 NAMEZ seperated by commas: ")
+namelist = namez.split(",")
+print(namelist)
+countvar = 0
+while countvar < 5:
+    print(namelist[countvar], "is awesome!")
+    countvar = countvar + 1
+
