@@ -1,13 +1,14 @@
 def piesprint(inputvar):
-    print(name + " likes pies")
+    piesvar = name + " likes pies"
+    return piesvar
 
 
 name = "Leon"
-piesprint(name)
+print(piesprint(name))
 
 
 name = "Jim"
-piesprint(name)
+print(piesprint(name))
 
 # I have written a procedure 
 # we call it like:
