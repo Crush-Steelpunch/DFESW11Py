@@ -1,10 +1,10 @@
 def gradeing(inputvar):
     if var1 > 85:
-        return "A"
+        return ["A","Distinction"]
     elif var1 > 65:
-        return "B"
+        return ["B", "Pass"]
     else:
-        return "F"
+        return ["F","What a thicko"]
 
 
 
@@ -15,5 +15,6 @@ gradevar = gradeing(var1)
 
 print("================")
 print("  You got an:   ")
-print("       "+ gradevar + "   "  )
+print("       "+ gradevar[0] + "   "  )
+print("       "+ gradevar[1] + "   "  )
 print("================")
