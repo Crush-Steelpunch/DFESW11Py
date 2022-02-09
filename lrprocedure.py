@@ -1,12 +1,13 @@
-def piesprint():
-    print("I like pies")
+def piesprint(inputvar):
+    print(name + " likes pies")
 
 
+name = "Leon"
+piesprint(name)
 
-piesprint()
 
-
-piesprint()
+name = "Jim"
+piesprint(name)
 
 # I have written a procedure 
 # we call it like:
@@ -18,7 +19,8 @@ piesprint()
 # str()
 # int()
 # bool()
-piesprint()
+name = "Mary"
+piesprint(name)
 
 # float()
 # input()
