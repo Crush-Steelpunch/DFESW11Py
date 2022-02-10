@@ -1,15 +1,10 @@
-def gradeing(inputvar):
-    if var1 > 85:
-        return ["A","Distinction"]
-    elif var1 > 65:
-        return ["B", "Pass"]
-    else:
-        return ["F","What a thicko"]
+import lrfunctions
 
 
 
-var1 = 2
-gradevar = gradeing(var1)
+
+var1 = 90
+gradevar = lrfunctions.gradeing(var1)
 
 # print a certificate
 
