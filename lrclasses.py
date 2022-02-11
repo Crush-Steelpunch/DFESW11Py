@@ -20,7 +20,6 @@ class Lettertest:
 
 
 
-
 vowls = Lettertest()
 
 print(vowls.letterlist)
